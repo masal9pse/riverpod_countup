@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 // 値（ここでは "Hello world"）を格納する「プロバイダ」を作成します。
 // プロバイダを使うことで値のモックやオーバーライドが可能になります。
