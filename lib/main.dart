@@ -40,7 +40,10 @@ class StateNotifierProviderPage extends ConsumerWidget {
         body: ElevatedButton(
           onPressed: () {
             // counter++;
-            ref.read(counterProvider.notifier).state++;
+            // ref.read(counterProvider.notifier).state++;
+            // updateを使う書き方もできる。
+            // ref.read(counterProvider.notifier).update((state) => state ++);
+            ref.read(counterProvider.notifier).update((state) => state + 1);
           },
           child: Text(counter.toString()),
         ),
