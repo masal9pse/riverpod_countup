@@ -39,7 +39,8 @@ class StateNotifierProviderPage extends ConsumerWidget {
         ),
         body: ElevatedButton(
           onPressed: () {
-            counter++;
+            // counter++;
+            ref.read(counterProvider.notifier).state++;
           },
           child: Text(counter.toString()),
         ),
