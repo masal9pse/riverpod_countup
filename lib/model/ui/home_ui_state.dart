@@ -1,6 +1,8 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:flutter/foundation.dart';
-import 'package:sample/importer.dart';
+import 'package:riverpod_countup/importer.dart';
+
+import '../error.dart';
 
 part 'home_ui_state.freezed.dart';
 
